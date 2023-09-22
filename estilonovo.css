@@ -1,3 +1,15 @@
 .bordasredondas{
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
+    width: 5%;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: auto !important;    
+}
+.topo{
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto !important;
+    
 }
