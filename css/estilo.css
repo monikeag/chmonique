@@ -1,0 +1,19 @@
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    padding-left: 60px;
+}
+.menuSub{    
+    list-style: none;
+}
+.menuSub li{
+    display: block;
+    margin: 0px;
+    padding-left: 0px;
+}
+.menuSub li:hover {
+    display: block;
+}
