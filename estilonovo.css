@@ -6,10 +6,18 @@
     height: auto !important;    
 }
 .topo{
-    width: 100%;
+    width: 90%;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     height: auto !important;
     
+}
+.passeios{
+    width: 10%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto !important;
+        
 }
