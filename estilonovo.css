@@ -1,16 +1,13 @@
-.bordasredondas{
-    border-radius: 10px 10px 10px 10px;
-    width: 5%;
-    padding-top: 10px;
-    padding-left: 10px;
-    height: auto !important;    
-}
 .topo{
     width: 100%;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     height: auto !important;
+    
+}
+.logo {
+    padding: 10px;
     
 }
 .passeios{
@@ -21,15 +18,9 @@
     
 
 }
-/*div {
-    background-color: rgb(5, 5, 5);
-    display: inline-block;
-    width: 1350px;    /* largura */
-    /*height: 550px;    /* altura */
-
 .navbar{
     overflow: hidden;
-    background-color: rgb(3, 3, 3);
+    background-color:#141218;
 }
 
 .menudiv a{
@@ -48,9 +39,12 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  
+      
   }
+.vida{
+    padding-bottom: 20px;
 
+}
 
 .menudiv .menuItem{
     font-size: 16px;
@@ -63,8 +57,11 @@
     margin: 0;
   }
 
-blococinza {
-    background-color: rgb(151, 147, 147);
+.blococinza {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(199, 196, 196, 0.822);
+    text-align: center;
 }
 .clientes {
     font-size: 40px;
