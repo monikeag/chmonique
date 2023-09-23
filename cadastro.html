@@ -9,11 +9,11 @@
 
 <body>
 
-    <a href="index.html"><button name="BotaoRedondoSetaEsquerda"> <img src="imagens/seta-esquerda.svg" alt="Voltar"></button>
+    <a href="index.html"><button id="BotaoRedondoSetaEsquerda"> <img src="imagens/seta-esquerda.svg" alt="Voltar"></button>
     </a>
 
     <Section>
-        <Button name="BotaoGoogle">Cadastrar com Google</Button>
+        <Button id="BotaoGoogle">Cadastrar com Google</Button>
     </Section>
 
     <br>
@@ -22,17 +22,30 @@
         <form>
             <label for="nome_sobrenome">Nome:</label> <br>
             <input type="text" name="nome_sobrenome" />
+
             <br>
+            
             <label for="data_de_nascimento">Data de Nascimento:</label> <br>
             <input type="date" name="data_de_nascimento" />
+            
             <br>
-            <label for="CPF">CPF</label> <br>
-            <input type="number" name="CPF">
-            <br>
+            
             <label for="e-mail">Seu melhor e-mail</label> <br>
             <input type="email" name="e-mailCadastro">
+            
             <br>
-            <button type="submit" name="criar_conta">Criar conta</button> <br>
+            
+            <label for="senha">Crie uma senha</label> <br>
+            <input type="text" name="senha">
+          
+            <br>
+          
+            <label for="confirmeSenha">Confirmar senha</label> <br>
+            <input type="text" name="confirmeSenha">
+           
+            <br>
+           
+            <button type="submit" name="criar_conta" id="BotaoRoxoTextoBranco">Criar conta</button> <br>
             <label for="criar_conta">*Ao clicar em “Criar conta” você aceita nossos <a href="inserir_termos">Termos de
                     Uso</a> e <a href="inserir_politica">Política de Privacidade</a>.</label>
 
@@ -42,7 +55,7 @@
     <br>
 <Section>
     <form>
-        <a href="/webdevgrupo/login.html"><button name="BotaoRoxoTextoBranco">Login</a>
+        <a href="/webdevgrupo/login.html"><button id="BotaoRoxoTextoBranco">Já tem uma conta? Faça login</a>
 
 
 
