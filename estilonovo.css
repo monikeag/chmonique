@@ -14,19 +14,42 @@
     
 }
 .passeios{
-    width: 30%;
+    width: 15%;
     padding-top: 10px;
-    padding-left: 5px;
-    padding-right: 5px; 
+    padding-left: 2px;
+    padding-right: 2px;
+    
 
 }
-div {
+/*div {
     background-color: rgb(5, 5, 5);
     display: inline-block;
     width: 1350px;    /* largura */
-    height: 55px;    /* altura */
+    /*height: 550px;    /* altura */
+
+
+.menudiv{
+    color: white;
+}
+.menudiv{
+    overflow: hidden;
+    background-color: rgb(3, 3, 3);
 }
 
-li{
-    display: inline-block
+.menudiv a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+#bonus{
+    display: flex;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
 }
