@@ -27,29 +27,42 @@
     width: 1350px;    /* largura */
     /*height: 550px;    /* altura */
 
-
-.menudiv{
-    color: white;
-}
-.menudiv{
+.navbar{
     overflow: hidden;
     background-color: rgb(3, 3, 3);
 }
 
-.menudiv a {
+.menudiv a{
   float: left;
   font-size: 20px;
-  color: white;
+  color: rgb(189, 184, 184);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 
 }
-#bonus{
-    display: flex;
-    padding: 6px 12px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+.navbar a{
+    float: left;
+    font-size: 20px;
+    color: rgb(189, 184, 184);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+  }
 
+
+.menudiv .menuItem{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+blococinza {
+    background-color: rgb(151, 147, 147);
 }
