@@ -1,66 +1,67 @@
-.logo {
-    position: fixed;
-    margin-top: 0px;
-    margin-bottom: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
 }
 
-ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #1d1c1c;
-    position: fixed;
-    top: 0;
-    width: 90%;
-    margin-left: 70px;
-    margin-right: 50px;
-    margin-top: 0px;
- 
-    
-    
-  }
+.container {
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo,
+.icones {
+    width: 25%;
+
+}
+
+.menu {
+    width: 50%;
+}
 
 li {
     display: inline;
     float: left;
-  }
+}
 
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-
-  }
-li a:hover {
-    background-color: #5e5d5d;
-    
-  }
-
-.topo{
+.topo {
     width: 98%;
     padding-top: 10px;
     padding-left: 8px;
     padding-right: 8px;
     height: auto !important;
-    
+
 }
 
-.passeios{
+.passeios {
     width: 260;
     height: 172;
     padding-top: 20px;
     margin: 5px;
 
 }
+
 .abaixo {
     padding: 15px;
     text-align: center;
 
 }
 
-.vida{
+.vida {
     padding-top: 100px;
     padding-bottom: 20px;
     padding-right: 10px;
@@ -74,10 +75,12 @@ li a:hover {
     background-color: rgba(199, 196, 196, 0.822);
     text-align: center;
 }
+
 .clientes {
     font-size: 40px;
 }
+
 div.fundo {
     background-color: #6750A4;
-    padding: 25px;    
+    padding: 25px;
 }
