@@ -122,62 +122,40 @@ div .imga {
     margin: 0;
     color:#ffffff
 }
-div.galeria {
-    margin: 5px;
-    float: left;
-    width: 200px;
+
+section{
+    column-count: 3;
+}
+
+section.galeria {
+    padding-left:40px
+
        
 }
-div.galeria img {
-    display: flex;
-    width: 100%;
-    height: auto;
-}
-div.galeria-seta {
-    width: 80%;
-    height: auto;
-}
-div .desc {
-    padding: 15px;
-    text-align: left;
-}
-/*.passeios {
-    width: 240;
-    height: 152;
-    padding-top: 5px;
-    margin: 10px;
 
-}*/
+.img {
+    width: 200px;
+    height: 220px;
+}
 
-div .buzios {
-    display: flex;
-    text-align: start;
+button{
+    display: inline;
+    padding: 5px 14px;
     justify-content: center;
-    
-   
-
+    align-items: center;
+    gap: 8px;
+    background-color: rgb(74, 0, 170);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
 }
-
-/*.vida {
-    padding-top: 100px;
-    padding-bottom: 20px;
-    padding-right: 10px;
-    text-align: center;
-
-}*/
-
-.blococinza {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: rgba(199, 196, 196, 0.822);
-    text-align: center;
+.co {
+    background-color: #ffffff;
+    color: rgb(74, 0, 170);
+    border-color: rgb(74, 0, 170) ;
 }
-
-.clientes {
-    font-size: 40px;
-}
-
-div.fundo {
-    background-color: #6750A4;
-    padding: 25px;
+section.vidas {
+    padding-top: 50px;
+    padding-left: 30px;
+    columns: 1;
 }
