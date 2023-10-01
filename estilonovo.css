@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flexbox;
     font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 
@@ -18,7 +19,7 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 header {
-    background-color: #0a0a0a;
+    background-color: #000000;
     width: 100%;
     padding: 10px;
 }
@@ -34,21 +35,22 @@ header {
 }
 
 .menu {
-    width: 50%;
+    width: 40%;
 }
 .menu li a{
     color: #ffffff;
     text-decoration: none;
     padding-right: 40px;
-    font-size: 18px; 
-    display: inline-block;
+    font-size: 16px; 
+    display: inline-flexbox
 
 }
 .dropdown-menu a {
+    display: inline-flex;
     color: #ffffff;
     text-decoration: none;
     padding-right: 40px;
-    font-size: 18px; 
+    font-size: 16px; 
 
 }
 
@@ -61,13 +63,12 @@ header {
     text-decoration: none;
     padding-right: 20px;
     font-size: 18px;
-    
+       
 }
 li{
     display: inline;
     float: none;
 }
-
 
 .icones button {
     width: 30px;
@@ -174,13 +175,72 @@ button{
     background: var(--Azul-00, #F8F8FF);
     box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
 
-
+}
+.h1-2 {
+    font-size: 60px;
+      
 }
 section.vidas {
-    padding-top: 50px;
-    padding-left: 30px;
+    padding-top: 150px;
+    padding-left: 90px;
+    padding-right: 100px ;
     columns: 2;
 }
 div.trio-imagens {
     justify-content: left;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: rgba(41, 52, 149, 0.88);
+    font-family: Roboto;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    
+    
+}
+section.background {
+    background: var(--Azul-000, #b8bacfc5);
+    width: 1440px;
+    height: 553px;
+    text-align: center;
+    column-count: 1;
+    margin-top: 40px;
+    
+}
+h4 {
+    text-align: center;
+    padding-top: 10px;
+    color: var(--cinza-300, #757373);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.i-cone button {
+    border-radius: 90%;
+    width: 60px;
+    height: 50px;
+        
+    background-image: rgba(40, 50, 141, 0.88);
+}
+.i-cone button i{
+    font-size: 30px;
+    color: #ffffff;
+    align-content: normal;
+}
+div.i-cone {
+    position: absolute;
+    justify-content: center;  
+    align-items: center; 
+    padding-top: 80px;
+}
+div.texto-icone{
+    text-align: center;
+    
 }
