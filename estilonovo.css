@@ -123,17 +123,10 @@ div .imga {
     margin: 0;
     color:#ffffff
 }
-
-section{
-    column-count: 3;
-       
-    
-}
-
 section.galeria {
-    padding-left:40px  
-   
-     
+    column-count: 3;
+    padding-left:40px 
+            
 }
 
 .img {
@@ -188,6 +181,7 @@ section.vidas {
 }
 div.trio-imagens {
     justify-content: left;
+    transform: translate3d(10deg)
 }
 
 h1 {
@@ -223,10 +217,10 @@ h4 {
 }
 
 .i-cone button {
+    align-items: center;
     border-radius: 90%;
     width: 60px;
-    height: 50px;
-        
+    height: 50px;        
     background-image: rgba(40, 50, 141, 0.88);
 }
 .i-cone button i{
@@ -234,13 +228,37 @@ h4 {
     color: #ffffff;
     align-content: normal;
 }
-div.i-cone {
-    position: absolute;
-    justify-content: center;  
-    align-items: center; 
+.i-cone {
+    flex-direction: column;
+     
+  
     padding-top: 80px;
 }
 div.texto-icone{
     text-align: center;
     
+}
+
+.new {
+    
+    border-radius: 2px 100px;
+    background: var(--Azul-00, #F8F8FF);
+    columns: 2;
+    
+}
+.new h1{
+    font-size: 40px;
+    text-align: left;
+    padding-left: 40px;
+
+}
+.new h4 {
+    text-align: left;
+    font-size: 12px;
+    padding-left: 40px;
+
+}
+.h2 {
+    padding-left: 40px;
+
 }
