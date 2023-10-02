@@ -276,6 +276,8 @@ footer {
     background-color: rgb(15, 54, 182);
 }
 
+
+/*area da Maressa*/
 .BotaoRedondoSetaEsquerda {display: flex;
   justify-content: center;
   align-items: center;
@@ -289,3 +291,4 @@ footer {
   font-size: 24px;
   cursor: pointer;
   transition: background-color 0.3s ease;}
+  /*Fim da area da Maressa*/
