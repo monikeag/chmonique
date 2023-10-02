@@ -1,78 +1,279 @@
-.topo{
-    width: 98%;
-    padding-top: 10px;
-    padding-left: 8px;
-    padding-right: 8px;
-    height: auto !important;
-    
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flexbox;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #000000;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo,
+.icones {
+    width: 10%;
+    cursor: pointer;
+
 }
 .logo {
-    nav-index: initial;
+    margin-right: 90px;
 }
 
-ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #1d1c1c;
-    position: fixed;
-    top: 0;
-    width: 95%;
- 
-    
-    
-  }
-
-li {
-    display: inline;
-    float: left;
-  }
-
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+.menu {
+    width: 40%;
+}
+.menu li a{
+    color: #ffffff;
     text-decoration: none;
+    padding-right: 40px;
+    font-size: 16px; 
+    display: inline-flexbox
 
-  }
-li a:hover {
-    background-color: #5e5d5d;
-    
-  }
-.passeios{
-    width: 15%;
-    padding-top: 10px;
-    padding-left: 2px;
-    padding-right: 2px;
-    
+}
+.dropdown-menu a {
+    display: inline-flex;
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 40px;
+    font-size: 16px; 
 
 }
 
-.vida{
-    padding-bottom: 20px;
+.menu nav a:hover {
+    color: gray;
 
 }
+.login nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 18px;
+       
+}
+li{
+    display: inline;
+    float: none;
+}
 
-.menudiv .menuItem{
-    font-size: 16px;
+.icones button {
+    width: 30px;
+    height: 30px;
+    background-image: linear-gradient(45deg, #000000,#000000);
     border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
+    cursor: pointer;
+    margin-right: 10px;
 
-.blococinza {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: rgba(199, 196, 196, 0.822);
-    text-align: center;
 }
-.clientes {
+.login {
+    color: #ffffff;
+    padding-right: 30px;
+    
+}
+
+.icones button i{
+    font-size: 20px;
+    color: #ffffff;
+    align-items: center;
+
+
+}
+    
+.entrar{
+    background-image: linear-gradient(45deg, rgb(159, 28, 219), rgb(159, 28, 219));
+    border-radius: 8px;
+    padding-left: 20px;
+  
+}
+
+.cadastro{
+    background-image: linear-gradient(45deg, rgb(159, 28, 219), rgb(159, 28, 219));
+    border-radius: 8px;
+    padding-left: 15px;
+    
+}
+div .imga {
+    width: 100%;
+    position: relative;
+    margin: 0;
+}   
+
+.legenda {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    bottom: 400px;
+    color: #ffffff;
+}
+.legenda h1 {
+    margin: 0;
+    color:#ffffff
+}
+section.galeria {
+    column-count: 3;
+    padding-left:40px 
+            
+}
+
+.img {
+    width: 360px;
+    height: 272px;    
+    padding-left: 20px;
+}
+div.flex {
+    border-style: solid 1px;
+    padding-left: 5px;
+    padding-bottom: 30px;
+}
+div.coluna {
+    column-count: 3;
+    
+        
+}
+h3 {
+    padding: 10px;
+}
+p{
+    padding: 10px;
+}
+
+button{
+    display: inline;
+    padding: 5px 14px;    
+    align-items: center;
+    gap: 8px;
+    background-color: rgb(74, 0, 170);
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+}
+.botao {
+    padding-top: 5px;
+    background-color: #ffffff;
+    color: rgb(74, 0, 170);
+    background: var(--Azul-00, #F8F8FF);
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+
+}
+.h1-2 {
+    font-size: 60px;
+      
+}
+section.vidas {
+    padding-top: 150px;
+    padding-left: 90px;
+    padding-right: 100px ;
+    columns: 2;
+}
+div.trio-imagens {
+    justify-content: left;
+    transform: translate3d(10deg)
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: rgba(41, 52, 149, 0.88);
+    font-family: Roboto;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    
+    
+}
+section.background {
+    background: var(--Azul-000, #b8bacfc5);
+    width: 1440px;
+    height: 553px;
+    text-align: center;
+    column-count: 1;
+    margin-top: 40px;
+    
+}
+h4 {
+    text-align: center;
+    padding-top: 10px;
+    color: var(--cinza-300, #757373);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.i-cone button {
+    align-items: center;
+    border-radius: 90%;
+    width: 60px;
+    height: 50px;        
+    background-image: rgba(40, 50, 141, 0.88);
+}
+.i-cone button i{
+    font-size: 30px;
+    color: #ffffff;
+    align-content: normal;
+}
+.i-cone {
+    flex-direction: column;
+     
+  
+    padding-top: 80px;
+}
+div.texto-icone{
+    text-align: center;
+    
+}
+
+.new {
+    
+    border-radius: 2px 100px;
+    background: var(--Azul-00, #F8F8FF);
+    columns: 2;
+    
+}
+.new h1{
     font-size: 40px;
+    text-align: left;
+    padding-left: 40px;
+
+}
+.new h4 {
+    text-align: left;
+    font-size: 12px;
+    padding-left: 40px;
+
+}
+.h2 {
+    padding-left: 40px;
+
+}
+.h6{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.enviar {
+    width: 200px;
+}
+.form {
+    padding-left: 40px;
+}
+footer {
+    background-color: rgb(15, 54, 182);
 }
 
 .BotaoRedondoSetaEsquerda {display: flex;
