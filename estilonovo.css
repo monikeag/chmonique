@@ -262,3 +262,16 @@ div.texto-icone{
     padding-left: 40px;
 
 }
+.h6{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.enviar {
+    width: 200px;
+}
+.form {
+    padding-left: 40px;
+}
+footer {
+    background-color: rgb(15, 54, 182);
+}
