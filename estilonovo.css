@@ -74,3 +74,17 @@ li a:hover {
 .clientes {
     font-size: 40px;
 }
+
+.BotaoRedondoSetaEsquerda {display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;}
