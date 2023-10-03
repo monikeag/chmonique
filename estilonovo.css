@@ -6,7 +6,7 @@
     box-sizing: border-box;
     display: flexbox;
     font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 
 }
 
@@ -30,6 +30,7 @@ header {
     cursor: pointer;
 
 }
+
 .logo {
     margin-right: 90px;
 }
@@ -37,20 +38,21 @@ header {
 .menu {
     width: 40%;
 }
-.menu li a{
+
+.menu li a {
     color: #ffffff;
     text-decoration: none;
     padding-right: 40px;
-    font-size: 16px; 
+    font-size: 16px;
     display: inline-flexbox
-
 }
+
 .dropdown-menu a {
     display: inline-flex;
     color: #ffffff;
     text-decoration: none;
     padding-right: 40px;
-    font-size: 16px; 
+    font-size: 16px;
 
 }
 
@@ -58,14 +60,16 @@ header {
     color: gray;
 
 }
-.login nav a{
+
+.login nav a {
     color: #ffffff;
     text-decoration: none;
     padding-right: 20px;
     font-size: 18px;
-       
+
 }
-li{
+
+li {
     display: inline;
     float: none;
 }
@@ -73,44 +77,46 @@ li{
 .icones button {
     width: 30px;
     height: 30px;
-    background-image: linear-gradient(45deg, #000000,#000000);
+    background-image: linear-gradient(45deg, #000000, #000000);
     border: none;
     cursor: pointer;
     margin-right: 10px;
 
 }
+
 .login {
     color: #ffffff;
     padding-right: 30px;
-    
+
 }
 
-.icones button i{
+.icones button i {
     font-size: 20px;
     color: #ffffff;
     align-items: center;
 
 
 }
-    
-.entrar{
+
+.entrar {
     background-image: linear-gradient(45deg, rgb(159, 28, 219), rgb(159, 28, 219));
     border-radius: 8px;
     padding-left: 20px;
-  
+
 }
 
-.cadastro{
+.cadastro {
     background-image: linear-gradient(45deg, rgb(159, 28, 219), rgb(159, 28, 219));
     border-radius: 8px;
     padding-left: 15px;
-    
+
 }
+
 div .imga {
     width: 100%;
     position: relative;
     margin: 0;
-}   
+}
 
 .legenda {
     position: relative;
@@ -119,41 +125,46 @@ div .imga {
     bottom: 400px;
     color: #ffffff;
 }
+
 .legenda h1 {
     margin: 0;
-    color:#ffffff
+    color: #ffffff
 }
+
 section.galeria {
     column-count: 3;
-    padding-left:40px 
-            
+    padding-left: 40px
 }
 
 .img {
     width: 360px;
-    height: 272px;    
+    height: 272px;
     padding-left: 20px;
 }
+
 div.flex {
     border-style: solid 1px;
     padding-left: 5px;
     padding-bottom: 30px;
 }
+
 div.coluna {
     column-count: 3;
-    
-        
+
+
 }
+
 h3 {
     padding: 10px;
 }
-p{
+
+p {
     padding: 10px;
 }
 
-button{
+button {
     display: inline;
-    padding: 5px 14px;    
+    padding: 5px 14px;
     align-items: center;
     gap: 8px;
     background-color: rgb(74, 0, 170);
@@ -161,6 +172,7 @@ button{
     border: none;
     border-radius: 12px;
 }
+
 .botao {
     padding-top: 5px;
     background-color: #ffffff;
@@ -169,16 +181,19 @@ button{
     box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
 
 }
+
 .h1-2 {
     font-size: 60px;
-      
+
 }
+
 section.vidas {
     padding-top: 150px;
     padding-left: 90px;
-    padding-right: 100px ;
+    padding-right: 100px;
     columns: 2;
 }
+
 div.trio-imagens {
     justify-content: left;
     transform: translate3d(10deg)
@@ -193,9 +208,10 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: 64px;
-    
-    
+
+
 }
+
 section.background {
     background: var(--Azul-000, #b8bacfc5);
     width: 1440px;
@@ -203,8 +219,9 @@ section.background {
     text-align: center;
     column-count: 1;
     margin-top: 40px;
-    
+
 }
+
 h4 {
     text-align: center;
     padding-top: 10px;
@@ -220,58 +237,106 @@ h4 {
     align-items: center;
     border-radius: 90%;
     width: 60px;
-    height: 50px;        
+    height: 50px;
     background-image: rgba(40, 50, 141, 0.88);
 }
-.i-cone button i{
+
+.i-cone button i {
     font-size: 30px;
     color: #ffffff;
     align-content: normal;
 }
+
 .i-cone {
     flex-direction: column;
-     
-  
+
+
     padding-top: 80px;
 }
-div.texto-icone{
+
+div.texto-icone {
     text-align: center;
-    
+
 }
 
 .new {
-    
+
     border-radius: 2px 100px;
     background: var(--Azul-00, #F8F8FF);
     columns: 2;
-    
+
 }
-.new h1{
+
+.new h1 {
     font-size: 40px;
     text-align: left;
     padding-left: 40px;
 
 }
+
 .new h4 {
     text-align: left;
     font-size: 12px;
     padding-left: 40px;
 
 }
+
 .h2 {
     padding-left: 40px;
 
 }
-.h6{
+
+.h6 {
     padding-top: 10px;
     padding-left: 40px;
 }
+
 .enviar {
     width: 200px;
 }
+
 .form {
     padding-left: 40px;
 }
+
 footer {
     background-color: rgb(15, 54, 182);
 }
+
+
+/*area da Maressa*/
+.BotaoRedondoSetaEsquerda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px;
+    ;
+}
+
+.login-e-cadastro-box {
+    width: 444px;
+    height: 552px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+
+/*Fim da area da Maressa*/

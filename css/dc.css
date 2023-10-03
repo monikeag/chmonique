@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0a0a0a;
+    width: 100%; 
+    
+}
+
+nav{    
+    text-align: center;
+      
+}
+
+
+nav li{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+nav li a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    justify-content: center;
+   
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+} 
+
+.dropdown:hover .dropdown-menu li{
+    display: flex;
+    border: 1px solid black;
+    background-color: black;
+    padding: 0px;
+    
+} 
+
+.dropdown-menu{
+    position: absolute;
+    display: none;
+}
+
+.dropdown-menu a{
+    display: block;
+}
+
+.botoes{
+    background-color: rgb(159, 28, 219);
+    border-radius: 4px;
+    padding: 0;
+    text-align: center;
+     
+} 
+
+header .imagem-logo{
+    width: 100%;
+}
+
+.baixoMenu{
+    width: 100%;
+}
+
+.titulo-pagina{
+    text-align: center;
+    font-size: 60px;
+}
+
+.opcoes{
+    display: flex;
+    display: block;
+    margin: 90px;
+}
+
+.linha {
+    display: flex;
+    padding-top: 50px;
+}
+
+p{
+    margin-left: 90px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+titulo{
+    font-size: 40px;
+}
+
+.fotos-praia{
+    width: 600px;
+    height: 500px;
+}
+
+.titulo-comentarios{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    background-color: black;
+}
+
+.feed-avaliacoes{
+    display: flex;
+    padding: 80px;
+    
+}
+
+.avaliacao-clientes{
+    background-color: #ccc;
+    border-radius: 0px 30px;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #0a0a0a;
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+
+footer .itens{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.itens{
+    padding-left: 200px;
+}
+
+.itens a{
+    text-decoration: none;
+    display: inline-flex;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #0a0a0a;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo,
+.icones {
+    width: 10%;
+    cursor: pointer;
+
+}
+.logo {
+    margin-right: 90px;
+}
+
+.menu {
+    width: 50%;
+}
+.menu li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 40px;
+    font-size: 18px; 
+    display: inline-block;
+
+}
+.dropdown-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 40px;
+    font-size: 18px; 
+
+}
+
+.menu nav a:hover {
+    color: gray;
+
+}
+.login nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 18px;
+    
+}
+li{
+    display: inline;
+    float: none;
+}
+
+
+.icones button {
+    width: 30px;
+    height: 30px;
+    background-image: linear-gradient(45deg, #000000,#000000);
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.login {
+    color: #ffffff;
+    padding-right: 30px;
+    
+}
+
+.icones button i{
+    font-size: 20px;
+    color: #ffffff;
+    align-items: center;
+
+
+}
+    
+.entrar{
+    background-image: linear-gradient(45deg, rgb(159, 28, 219), rgb(159, 28, 219));
+    border-radius: 8px;
+    padding-left: 20px;
+  
+}
+
+.cadastro{
+    background-image: linear-gradient(45deg, rgb(159, 28, 219), rgb(159, 28, 219));
+    border-radius: 8px;
+    padding-left: 15px;
+    
+}
+div .imga {
+    width: 100%;
+    position: relative;
+    margin: 0;
+}   
+
+.legenda {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    bottom: 400px;
+    color: #ffffff;
+}
+.legenda h1 {
+    margin: 0;
+    color:#ffffff
+}
+.quadrado {
+    display: flex; 
+    justify-content: center;
+      
+    
+}
+.passeios {
+    width: 240;
+    height: 152;
+    padding-top: 5px;
+    margin: 10px;
+
+}
+.seta{
+    position: relative;
+
+}
+
+
+
+div .buzios {
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    
+   
+
+}
+
+.vida {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: center;
+
+}
+
+.blococinza {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(199, 196, 196, 0.822);
+    text-align: center;
+}
+
+.clientes {
+    font-size: 40px;
+}
+
+div.fundo {
+    background-color: #6750A4;
+    padding: 25px;
+} */
+
+
+
+
+/* .menu{
+    text-decoration: none;
+    padding-left: 40px;
+    align-items: center;
+    
+}
+
+menu .li{
+    display: flex;
+    padding: 40px;
+}
+
+.menu li:hover{
+    background-color: brown;
+    display: block;
+}
+.menu li ul {
+    display: none;
+}
+
+.menu li:hover ul{
+    display: block;
+}
+
+.menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 0px 40px 0px 40px;
+}
+
+
+
+.menu-navegacao{
+    display: flex;
+
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-sub li ul{
+    display: block;
+    display: none;
+    
+}
+
+.menu-sub li:hover{
+    display: block;
+} */
+
+
