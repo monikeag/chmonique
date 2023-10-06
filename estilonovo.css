@@ -406,4 +406,18 @@ margin-right: 30px;
     }
     
 
+    .BotãoTextoRoxo {
+background-color: white;
+        color: rgba(41, 52, 149, 0.88);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+
+
+    }
+
+
 /*Fim da area da Maressa*/
