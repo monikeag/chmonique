@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    
+    "menuNavegacao"
+
+    ;
+}
+
+.menuNavegacao{
+    background-color:rgba(40, 50, 141, 0.88);
+    grid-area: menuNavegacao;
+}
+
+.menuNavegacao ul li a{
+    text-decoration: none; 
+    color: white; 
+    
+}
+
+.menu {   
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.menu .imagemLogo{   
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.menu .link{
+    list-style-type: none;
+    padding: 0px 20px;
+    
+}
+
+.tituloConteudo{
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    color: rgba(41, 52, 149, 0.88);
+}
+
+.conteudo{
+    display: grid;
+    gap: 40px;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    
+    "lugar1 lugar2"
+    "lugar3 lugar4"
+    ;
+}
+
+.lugar1{
+    text-align: center;
+}
+
+.lugar2{
+    text-align: center;
+}
+.lugar3{
+    text-align: center;
+}
+.lugar4{
+    text-align: center;
+}
+
+.conteudo2{
+    display: grid;
+    gap: 40px;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    
+    "lugar5 lugar6"
+    "lugar7 lugar8"
+    ;
+}
+
+.lugar1 p, .lugar2 p, .lugar3 p, .lugar4 p{
+    padding: 0px 40px;
+}
+
+.lugar5{
+    text-align: center;
+}
+
+.lugar6{
+    text-align: center;
+}
+
+.lugar7{
+    text-align: center;
+}
+
+.lugar8{
+    text-align: center;
+}
+
+.lugar5 p, .lugar6 p, .lugar7 p, .lugar8 p{
+    padding: 0px 40px;
+}
+
+.banner{
+    height: 510.22px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: rgba(41, 52, 149, 0.88);
+    font-family: Roboto;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+
+
+}
+
+.h2 {
+    padding-left: 40px;
+
+}
+
+h4 {
+    text-align: center;
+    padding-top: 10px;
+    color: var(--cinza-300, #757373);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.h6 {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.newsletter{
+    border-radius: 2px 100px;
+    background: var(--Azul-00, #F8F8FF);
+    columns: 2;
+    
+}
+    
+.new h1 {
+    font-size: 40px;
+    text-align: left;
+    padding-left: 40px;
+    
+}
+    
+.new h4 {
+    text-align: left;
+    font-size: 12px;
+    padding-left: 40px;
+    
+}
+    
+.h2 {
+    padding-left: 40px;
+    
+}
+    
+.h6 {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+    
+.enviar {
+   width: 200px;
+}
+    
+.form {
+    padding-left: 40px;
+}
+
+.form p{
+    padding: 10px;
+    
+}
+
+button {
+    display: inline;
+    padding: 5px 14px;
+    align-items: center;
+    gap: 8px;
+    background-color: rgb(74, 0, 170);
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+}
+
+
+.rodape{  
+    
+    background-color: rgba(40, 50, 141, 0.88);
+    text-decoration: none;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    
+    "rodapeEsquerdo rodapeDireito"
+    ;
+}
+
+.rodapeEsquerdo{
+    grid-template-areas: rodapeEsquerdo;
+    display:block;
+    text-align: center;
+}
+
+.rodapeDireito{
+    grid-template-areas: rodapeDireito;
+    display: flex;    
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodapeDireito a{
+    padding-left: 20px;
+}
+.rodape a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.baixoMenu{
+    width: 100%;
+    height: 60vh;
+}
+
+.legenda {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    bottom: 400px;
+    color: #ffffff;
+}
