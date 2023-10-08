@@ -17,11 +17,14 @@ header{
 .menuNavegacao{
     background-color:rgba(40, 50, 141, 0.88);
     grid-area: menuNavegacao;
+    padding: 8px 0px;
 }
 
 .menuNavegacao ul li a{
     text-decoration: none; 
     color: white; 
+    font-size: 18px;
+    font-weight: bold;
     
 }
 
@@ -247,7 +250,7 @@ button {
 
 .baixoMenu{
     width: 100%;
-    height: 60vh;
+    height: 90vh;
 }
 
 .legenda {
