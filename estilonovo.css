@@ -11,7 +11,7 @@
 }
 
 .container {
-    max-width: 1080px;
+    max-width: 1280px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -26,7 +26,7 @@ header {
 
 .logo,
 .icones {
-    width: 10%;
+    width:10%;
     cursor: pointer;
 
 }
@@ -36,7 +36,7 @@ header {
 }
 
 .menu {
-    width: 40%;
+    width: 60%;
 }
 
 .menu li a {
@@ -45,15 +45,6 @@ header {
     padding-right: 40px;
     font-size: 16px;
     display: inline-flexbox
-}
-
-.dropdown-menu a {
-    display: inline-flex;
-    color: #ffffff;
-    text-decoration: none;
-    padding-right: 40px;
-    font-size: 16px;
-
 }
 
 .menu nav a:hover {
@@ -70,18 +61,8 @@ header {
 }
 
 li {
-    display: inline;
+    display: inline-flex;
     float: none;
-}
-
-.icones button {
-    width: 30px;
-    height: 30px;
-    background-image: linear-gradient(45deg, #000000, #000000);
-    border: none;
-    cursor: pointer;
-    margin-right: 10px;
-
 }
 
 .login {
@@ -184,6 +165,7 @@ button {
 
 .h1-2 {
     font-size: 60px;
+    font-family: Impact;
 
 }
 
@@ -241,23 +223,7 @@ h4 {
     background-image: rgba(40, 50, 141, 0.88);
 }
 
-.i-cone button i {
-    font-size: 30px;
-    color: #ffffff;
-    align-content: normal;
-}
 
-.i-cone {
-    flex-direction: column;
-
-
-    padding-top: 80px;
-}
-
-div.texto-icone {
-    text-align: center;
-
-}
 
 .new {
 
