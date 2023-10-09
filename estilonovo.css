@@ -26,8 +26,9 @@ header {
 
 .logo,
 .icones {
-    width:10%;
-    cursor: pointer;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 
 }
 
@@ -267,6 +268,62 @@ h4 {
 
 footer {
     background-color: rgb(15, 54, 182);
+}
+
+.rodape{  
+    
+    background-color: rgba(40, 50, 141, 0.88);
+    text-decoration: none;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    
+    "rodapeEsquerdo rodapeDireito"
+    ;
+}
+
+.rodapeEsquerdo{
+    grid-template-areas: rodapeEsquerdo;
+    display:block;
+    text-align: center;
+}
+
+.rodapeDireito{
+    grid-template-areas: rodapeDireito;
+    display: flex;    
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodapeDireito a{
+    padding-left: 20px;
+}
+.rodape a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.baixoMenu{
+    width: 100%;
+    height: 60px;
+}
+
+.legenda {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    bottom: 400px;
+    color: #ffffff;
+}
+
+.link1 {
+    
 }
 
 
