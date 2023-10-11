@@ -11,7 +11,7 @@
 }
 
 .container {
-    max-width: 1080px;
+    max-width: 1280px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -26,8 +26,9 @@ header {
 
 .logo,
 .icones {
-    width: 10%;
-    cursor: pointer;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 
 }
 
@@ -36,7 +37,7 @@ header {
 }
 
 .menu {
-    width: 40%;
+    width: 60%;
 }
 
 .menu li a {
@@ -45,15 +46,6 @@ header {
     padding-right: 40px;
     font-size: 16px;
     display: inline-flexbox
-}
-
-.dropdown-menu a {
-    display: inline-flex;
-    color: #ffffff;
-    text-decoration: none;
-    padding-right: 40px;
-    font-size: 16px;
-
 }
 
 .menu nav a:hover {
@@ -70,18 +62,8 @@ header {
 }
 
 li {
-    display: inline;
+    display: inline-flex;
     float: none;
-}
-
-.icones button {
-    width: 30px;
-    height: 30px;
-    background-image: linear-gradient(45deg, #000000, #000000);
-    border: none;
-    cursor: pointer;
-    margin-right: 10px;
-
 }
 
 .login {
@@ -184,6 +166,7 @@ button {
 
 .h1-2 {
     font-size: 60px;
+    font-family: Impact;
 
 }
 
@@ -241,23 +224,7 @@ h4 {
     background-image: rgba(40, 50, 141, 0.88);
 }
 
-.i-cone button i {
-    font-size: 30px;
-    color: #ffffff;
-    align-content: normal;
-}
 
-.i-cone {
-    flex-direction: column;
-
-
-    padding-top: 80px;
-}
-
-div.texto-icone {
-    text-align: center;
-
-}
 
 .new {
 
@@ -301,6 +268,62 @@ div.texto-icone {
 
 footer {
     background-color: rgb(15, 54, 182);
+}
+
+.rodape{  
+    
+    background-color: rgba(40, 50, 141, 0.88);
+    text-decoration: none;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    
+    "rodapeEsquerdo rodapeDireito"
+    ;
+}
+
+.rodapeEsquerdo{
+    grid-template-areas: rodapeEsquerdo;
+    display:block;
+    text-align: center;
+}
+
+.rodapeDireito{
+    grid-template-areas: rodapeDireito;
+    display: flex;    
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodapeDireito a{
+    padding-left: 20px;
+}
+.rodape a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.baixoMenu{
+    width: 100%;
+    height: 60px;
+}
+
+.legenda {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    bottom: 400px;
+    color: #ffffff;
+}
+
+.link1 {
+    
 }
 
 
