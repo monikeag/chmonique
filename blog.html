@@ -1,168 +1,181 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="blog sobre destinos para viajar nacional ou internacional">
-    <meta name="keywords" content="blog, viagens, turismo, aventuras, lugares lindos">
-    <title>Blog - TW</title>
+    <meta name="description" content="blog com informações de pesquisa sobre destino de viagens">
+    <meta name="keywords" content="viagens, blog, destinos interessantes, lugares para descanso">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="https://kit.fontawesome.com/05225bdfdf.js" crossorigin="anonymous"></script>
+
+    <title>Blog - TW</title>
 </head>
+
 <body>
-    <header>
-        <nav class="menuNavegacao">
-            <ul class="menu">
-                <li class="link"><a href="index.html"><img class="imagemLogo" src="imagens/logotw.png" alt="Logo"></a></li>
-                <li class="link"><a href="index.html">Home</a></li>
-                <li class="link"><a href="blog.html">Blog</a></li>
-                <li class="link"><a href="cadastro.html">Cadastro</a></li>
-                <li class="link"><a href="login.html">Login</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="banner">
-        <img class="baixoMenu" src="imagens/praia-barcos-escuro.png" alt="Praia com barcos">
-        <h1 class="legenda"> Lugares para conhecer !<br><br> Confira nossas dicas !</h1>
-    </section>
-    <br>
-    <section>
-        <h1 class="tituloConteudo">Quais os destinos de viagem internacional <br> mais procurados em 2023?</h1>
-    </section>
-    <br>
-    <main class="conteudo">
-        <div class="lugar1">
-            <a> <img src="imagens/punta cana blog.png" alt="imagempuntacana"></a>
-            <h3>Punta Cana</h3><br>
-            <p>
-                Two-line snackbar with longer action Two-line snackbar with longer actionTwo-line snackbar with
-                longer
-                actionTwo-line snackbar with longer actionTwo-line snackbar with longer actionTwo-line snackbar with
-                longer
-                actionTwo-line snackbar with longer action
-            </p><br>
-            <div><button class="button"><strong>Saiba Mais</strong></button></div>
+    <nav class="navbar navbar-dark bg-black">
+        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a href="index.html"><img src="./imagens/logotw.png" alt="Logo TW"></a>
+            </li>
+        </ul>
+        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link" id="pills-home-tab" href="index.html" role="tab" aria-controls="pills-home"
+                    aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" href="blog.html" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">Blog</a>
+            </li class="nav-item">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-primary " type="submit"><img src="./imagens/busca.png" alt="busca"></button>
+            </form>
+            <li>
+                <a href="#"></a>
+            </li>
+        </ul>
+
+        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="btn btn-primary" href="cadastro.html" role="button">Cadastro</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-primary" href="login.html" role="button">Login</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
         </div>
-        <div class="lugar2">
-            <a> <img src="imagens/cancun blog.png" alt="imagemcancun"></a>
-            <h3>Cancun</h3><br>
-            <p>
-                Two-line snackbar with longer action Two-line snackbar with longer actionTwo-line snackbar with
-                longer
-                actionTwo-line snackbar with longer actionTwo-line snackbar with longer actionTwo-line snackbar with
-                longer
-                actionTwo-line snackbar with longer action
-            </p><br>
-            <div><button class="button"><strong>Saiba Mais</strong></button></div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./imagens/praia-barcos.png" alt="praia com barcos">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./imagens/portugal-galapinhos.jpg" alt="galapinhos portugal">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./imagens/polonia-francesa.jpg" alt="polonia francesa">
+            </div>
         </div>
-        <div class="lugar3">
-            <a> <img src="imagens/caribe blog.png" alt="imagemcaribe"></a>
-            <h3>Caribe</h3><br>
-            <p>
-                Two-line snackbar with longer action Two-line snackbar with longer actionTwo-line snackbar with
-                longer
-                actionTwo-line snackbar with longer actionTwo-line snackbar with longer actionTwo-line snackbar with
-                longer
-                actionTwo-line snackbar with longer action
-            </p><br>
-            <div><button class="button"><strong>Saiba Mais</strong></button></div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    <main>
+        <br>
+        <h1 class="tituloMainBlog">Quais são as viagem mais procuradas em 2023?</h1>
+        <br>
+        <div class="container-fluid">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="./imagens/sao-miguel-dos-milagres-alagoas.jpg"
+                        alt="São-Miguel-dos-milagres-alagoas">
+                    <div class="card-body">
+                        <h5 class="card-title">São Miguel dos Milagres - Alagoas</h5>
+                        <p class="card-text">São Miguel dos Milagres, ou simplesmente Milagres, é uma cidade alagoana
+                            que cada vez conquista mais fãs pelo Brasil. A pequena cidade faz parte da chamada Rota
+                            Ecológica, um pedacinho do litoral Norte alagoano que encanta por sua simplicidade, pelas
+                            pousadas de charme e pelas praias vazias, com piscinas naturais e coqueiros a perder de
+                            vista.</p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./imagens/angra-dos-reis.jpg" alt="Angra dos Reis">
+                    <div class="card-body">
+                        <h5 class="card-title">Angra dos Reis - Rio de Janeiro</h5>
+                        <p class="card-text">Angra dos Reis é uma das mais antigas cidades do Brasil. As terras do
+                            município foram descobertas oficialmente pelo navegador Gonçalo Coelho capitão-mor da
+                            expedição de 1501, em 06 de janeiro de 1502, dois anos após o Descobrimento do Brasil.
+                            Consta, entretanto, que muito tempo antes, a tribo dos Índios Guaianases já desfrutavam de
+                            suas intocáveis belezas.</p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="./imagens/barbados-caribe.jpg" alt="Barbados Caribe">
+                    <div class="card-body">
+                        <h5 class="card-title">Barbados - Caribe</h5>
+                        <p class="card-text">Barbados é um destino com temperaturas agradáveis o ano todo, com média de
+                            temperatura anual na ilha é de 26°C. Ficar de olho nas condições climáticas é importante
+                            para o sucesso da viagem. O período mais seco do ano vai de janeiro a maio (ótima época para
+                            viajar), enquanto julho a novembro é um período mais chuvoso.</p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./imagens/nova-zelandia.jpg" alt=" Cathedral Cove Nova Zelândia">
+                    <div class="card-body">
+                        <h5 class="card-title">Nova Zelândia - Cathedral Cove</h5>
+                        <p class="card-text">A Península de Coromandel, localizada na Ilha Norte e a 170 km de Auckland,
+                            está entre os destinos prediletos dos neozelandeses para dias de praia e sol, especialmente
+                            na alta temporada de verão. A região é marcada pela famosa Cathedral Cove, praia que tem
+                            como destaque uma passagem pela rocha entre duas faixas de areia que lembra o formato de uma
+                            catedral. Cathedral Cove ganhou ainda mais notoriedade depois de ser cenário do filme As
+                            Crônicas de Nárnia.</p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="lugar4">
-            <a> <img src="imagens/egito blog.png" alt="imagemegito"></a>
-            <h3>Egito</h3><br>
-            <p>
-                Two-line snackbar with longer action Two-line snackbar with longer actionTwo-line snackbar with
-                longer
-                actionTwo-line snackbar with longer actionTwo-line snackbar with longer actionTwo-line snackbar with
-                longer
-                actionTwo-line snackbar with longer action
-            </p><br>
-            <div><button class="button"><strong>Saiba Mais</strong></button></div>
-        </div>
-    </main>
-    <br>
-    <section>
-        <h1 class="tituloConteudo">
-            Quais os destinos de viagem no Brasil <br>
-         mais procurados em 2023?
-        </h1>
-    </section>
-    <br>
-    <main class="conteudo2">
-        <div class="lugar5">
-            <a> <img src="imagens/maragogi blog.png" alt="imagemmaragogi"></a>
-                    <h3>Maragogi</h3><br>
-                    <p>
-                        Two-line snackbar with longer action Two-line snackbar with longer actionTwo-line snackbar with
-                        longer
-                        actionTwo-line snackbar with longer actionTwo-line snackbar with longer actionTwo-line snackbar
-                        with longer
-                        actionTwo-line snackbar with longer action
-                    </p><br>
-                    <div><button class="button"><strong>Saiba Mais</strong></button></div>
-        </div>
-        <div class="lugar6">
-            <a> <img src="imagens/porto de galinhas blog.png" alt="imagemportodegalinhas"></a>
-                    <h3>Porto de Galinhas</h3><br>
-                    <p>
-                        Two-line snackbar with longer action Two-line snackbar with longer actionTwo-line snackbar with
-                        longer
-                        actionTwo-line snackbar with longer actionTwo-line snackbar with longer actionTwo-line snackbar
-                        with longer
-                        actionTwo-line snackbar with longer action
-                    </p><br>
-                    <div><button class="button"><strong>Saiba Mais</strong></button></div>
-        </div>
-        <div class="lugar7">
-            <a> <img src="imagens/jericoacoara blog.png" alt="imagemjericoacoara"></a>
-                    <h3>Jericoacoara</h3><br>
-                    <p>
-                        Two-line snackbar with longer action Two-line snackbar with longer actionTwo-line snackbar with
-                        longer
-                        actionTwo-line snackbar with longer actionTwo-line snackbar with longer actionTwo-line snackbar
-                        with longer
-                        actionTwo-line snackbar with longer action
-                    </p><br>
-                    <div><button class="button"><strong>Saiba Mais</strong></button></div>
-        </div>
-        <div class="lugar8">
-            <a> <img src="imagens/florianopolis blog.png" alt="imagemflorianopolis"></a>
-                    <h3>Florianopolis</h3><br>
-                    <p>
-                        Two-line snackbar with longer action Two-line snackbar with longer actionTwo-line snackbar with
-                        longer
-                        actionTwo-line snackbar with longer actionTwo-line snackbar with longer actionTwo-line snackbar
-                        with longer
-                        actionTwo-line snackbar with longer action
-                    </p><br>
-                    <div><button class="button"><strong>Saiba Mais</strong></button></div>
-        </div>
+        <br><br>
     </main>
     <section class="newsletter">
         <h1> Assine nossa Newsletter </h1>
-    <h2 class="h2"> Receba ofertas e promoções especiais.</h2>
-    <h4> Você receberá e-mails promocionais de viagens e seus dados pessoais <br>não serão compartilhados. Para mais
-        informações, consulte as políticas de privacidade. </h4>
-    <form class="form">
-        <p> Nome: <input type="text" name="nome" id="nome"></p>
-        <p> Email: <input type="text" name="email" id="email"></p>
-        <button class="enviar"> Enviar </button>
-    </form>
-    <h6 class="h6"> *Ao continuar, você concorda em receber e-mails promocionais.</h6>
-    <a> <img src="imagens/newsletter.png"> </a>
+        <h2 class="h2"> Receba ofertas e promoções especiais.</h2>
+        <h4> Você receberá e-mails promocionais de viagens e seus dados pessoais <br>não serão compartilhados. Para mais
+            informações, consulte as políticas de privacidade. </h4>
+        <form class="form">
+            <p> Nome: <input type="text" name="nome" id="nome"></p>
+            <p> Email: <input type="text" name="email" id="email"></p>
+            <button class="enviar"> Enviar </button>
+        </form>
+        <h6 class="h6"> *Ao continuar, você concorda em receber e-mails promocionais.</h6>
+        <a> <img src="imagens/newsletter.png"> </a>
     </section>
     <footer class="rodape">
         <ul class="rodapeEsquerdo">
-            <li><a class="link1">Contatos:</a></li>
-            <li><a class="link2" href="#">E-mail: contato@tw.coderhouse</a></li>
-            <li><a class="link3" href="tel:1100000000" aria-label="telefone">Telefone: (00) 0000-0000</a></li>
+            <a class="link1">Contatos:</a>
+            <a class="link2" href="#">E-mail: contato@tw.coderhouse</a>
+            <a class="link3" href="tel:1100000000" aria-label="telefone">Telefone: (00) 00000-0000</a>
         </ul>
         <ul class="rodapeDireito">
             <li><a class="link4" href=""><img src="./imagens/instagram.png" alt="Instagram"></a></li>
             <li><a class="link5" href=""><img src="./imagens/youtube.png" alt="Youtube"></a></li>
             <li><a class="link6" href=""><img src="./imagens/facebook.png" alt="Facebook"></a></li>
             <li><a class="link7" href=""><img src="./imagens/twitter.png" alt="Twitter"></a></li>
-        </ul>                   
+        </ul>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
