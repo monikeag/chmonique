@@ -5,66 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="estilonovo.css">
 </head>
 
 <body style="background-image: url(/webdevgrupo/imagens/Login.png);">
 
-    <a href="index.html"><button class="BotaoRedondoSetaEsquerda"> <img src="imagens/seta-esquerda.svg" alt="Voltar"></button>
+
+
+    <a href="index.html"><button class="BotaoRedondoSetaEsquerda"> <img src="imagens/seta-esquerda.svg"
+                alt="Voltar"></button>
     </a>
 
     <Section>
+
+
         <div class="login-e-cadastro-box">
-        <Button class="BotaoBranco"> <img class="icone-google" src="/webdevgrupo/imagens/icon-google.svg">Cadastrar com Google</Button>
-    
 
-    <br>
-    
-    
-       
-        <form>
-            <label class="input-label" for="nome_sobrenome">Nome:</label> <br>
-            <input class="input-padrão" type="text" name="nome_sobrenome" />
+            <div>
+                <img class="logo-top" src="/webdevgrupo/imagens/Logo-azul.svg" alt="Logo TW azul">
+            </div>
 
-            <br>
-            
-            <label class="input-label" for="data_de_nascimento">Data de Nascimento:</label> <br>
-            <input class="input-padrão" type="date" name="data_de_nascimento" />
-            
-            <br>
-            
-            <label class="input-label" for="e-mail">Seu melhor e-mail</label> <br>
-            <input class="input-padrão" type="email" name="e-mailCadastro">
-            
-            <br>
-            
-            <label class="input-label" for="senha">Crie uma senha</label> <br>
-            <input class="input-padrão" type="text" name="senha">
-          
-            <br>
-          
-            <label class="input-label" for="confirmeSenha">Confirmar senha</label> <br>
-            <input class="input-padrão" type="text" name="confirmeSenha">
-           
-            <br>
-           
-            <button class="BotaoRoxoTextoBranco" type="submit" name="criar_conta" >Criar conta</button> <br>
-            <label class="Label-Politica" for="criar_conta">*Ao clicar em “Criar conta” você aceita nossos <a href="inserir_termos">Termos de
-                    Uso</a> e <a href="inserir_politica">Política de Privacidade</a>.</label>
+            <Button class="BotaoBranco"> <img class="icone-google" src="/webdevgrupo/imagens/icon-google.svg">Cadastrar
+                com Google</Button>
 
-        </form>
-  
-
-    <br>
-
-    <form>
-        <a href="/webdevgrupo/login.html"><button class="BotaoBranco">Já tem uma conta? Faça login</a>
+            <div>
+                <img src="/webdevgrupo/imagens/Divider-OU.svg" width="100%">
+            </div>
 
 
 
-    </form>
-</div>
-</Section>
+            <form>
+
+        
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Data de Nascimento</label>
+                    <input type="date" class="form-control" id="exampleFormControlInput1">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Seu melhor e-mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Crie uma senha</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Confirme sua senha</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                </div>
+
+
+
+                <button class="BotaoRoxoTextoBranco" type="submit" name="criar_conta">Criar conta</button> <br>
+                <label class="Label-Politica" for="criar_conta">*Ao clicar em “Criar conta” você aceita nossos <a
+                        href="inserir_termos">Termos de
+                        Uso</a> e <a href="inserir_politica">Política de Privacidade</a>.</label>
+
+            </form>
+
+
+
+
+            <form>
+                <a href="/webdevgrupo/login.html"><button class="BotaoBranco">Já tem uma conta? Faça login</a>
+
+
+
+            </form>
+        </div>
+    </Section>
 
 </body>
 
