@@ -7,28 +7,52 @@
     <link rel="stylesheet" href="estilonovo.css" />
     <meta name="keywords" content="viagem, destinos, pacotes">
     <script src="https://kit.fontawesome.com/05225bdfdf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Home TW - Turismo Web </title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="logo"><img src="Imagens Home/NovaLogo.jpg" width="70" height="40"> </div>
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="Blog.html">Blog</a></li>                    
-                    </ul>
-                </nav>
-                <div class="login">
-                <nav>
-                    <a class="entrar" href="/webdevgrupo/login.html">Login</a>
-                    <a class="cadastro" href="/webdevgrupo/cadastro.html">Cadastre-se</a>
-                </nav>
+    <nav class="navbar navbar-dark bg-black">
+        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a href="index.html"><img src="./imagens/logotw.png" alt="Logo TW"></a>
+            </li>
+        </ul>
+        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link" id="pills-home-tab" href="index.html" role="tab" aria-controls="pills-home"
+                    aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" href="blog.html" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">Blog</a>
+            </li class="nav-item">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-primary " type="submit"><img src="./imagens/busca.png" alt="busca"></button>
+            </form>
+            <li>
+                <a href="#"></a>
+            </li>
+        </ul>
+
+        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="btn btn-primary" href="cadastro.html" role="button">Cadastro</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-primary" href="login.html" role="button">Login</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...
             </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
         </div>
-    </header>
+    </nav>
     <div>
         <a> <img class="imga" src="Imagens Home/Imagem-Home-Topo.jpg" alt="imagemhome"></a>
         <h1 class="legenda"> TW - Turismo Web </h1>
