@@ -43,19 +43,7 @@ div .imga {
     width: 100%;
     position: relative;
     margin: 0;
-}
-
-.legenda {
-    position: relative;
-    text-align: center;
-    font-size: 100px;
-    bottom: 400px;
-    color: #ffffff;
-}
-
-.legenda h1 {
-    margin: 0;
-    color: #ffffff
+    padding-bottom: 40px;
 }
 
 section.galeria {
@@ -77,33 +65,32 @@ div.flex {
 
 div.coluna {
     column-count: 3;
-
-
 }
 
-h3 {
-    padding: 10px;
+h4 {
+    padding: 8px;
+   
+    
 }
 
 p {
     padding: 10px;
-}
+    display: flexbox;
 
-button {
-    display: inline;
-    padding: 5px 14px;
-    align-items: center;
-    gap: 8px;
-    background-color: rgb(74, 0, 170);
-    color: #ffffff;
-    border: none;
-    border-radius: 12px;
 }
 
 .botao {
     padding-top: 5px;
     background-color: #ffffff;
-    color: rgb(74, 0, 170);
+    color: #293495;
+    background: var(--Azul-00, #F8F8FF);
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+
+}
+.cadastro {
+    padding-top: 5px;
+    background-color: #ffffff;
+    color: #293495;
     background: var(--Azul-00, #F8F8FF);
     box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
 
@@ -147,6 +134,7 @@ section.background {
     text-align: center;
     column-count: 1;
     margin-top: 40px;
+    color: #293495;
 
 }
 
@@ -160,15 +148,6 @@ h4 {
     font-weight: 500;
     line-height: 20px;
 }
-
-.i-cone button {
-    align-items: center;
-    border-radius: 90%;
-    width: 60px;
-    height: 50px;
-    background-image: rgba(40, 50, 141, 0.88);
-}
-
 
 
 .new {
@@ -211,6 +190,7 @@ h4 {
     padding-left: 40px;
 }
 
+/*rodapé */
 footer {
     background-color: rgb(15, 54, 182);
 }
