@@ -16,8 +16,12 @@ nav{
 }
 
 .btn-primary{
-    background-color: #293495;
-    border-color: #293495;
+    padding-top: 5px;
+    background-color: #ffffff;
+    color: #293495;
+    background: var(--Azul-00, #F8F8FF);
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+
 }
 
 .nav-pills .nav-link.active{
@@ -95,10 +99,16 @@ p {
     box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
 
 }
+.text-back {
+    color: #293495;
+    font-size: 50px;
 
-.h1-2 {
-    font-size: 60px;
-    font-family: Impact;
+}
+
+.colaborador {
+    font-size: 50px;
+    font-family:  Roboto;
+   
 
 }
 
@@ -124,17 +134,27 @@ h1 {
     font-weight: 700;
     line-height: 64px;
 
-
 }
 
 section.background {
-    background: var(--Azul-000, #b8bacfc5);
+    background: var(--Azul-000, #b8bacf93);
     width: 1440px;
     height: 553px;
     text-align: center;
     column-count: 1;
     margin-top: 40px;
     color: #293495;
+    
+}
+.comunidade {
+    padding-left: 90px;
+    padding-top: 30px;
+    color: rgba(41, 52, 149, 0.88);
+
+}
+.comunidade img{
+    padding-top: 30px;
+    padding-bottom: 80px;
 
 }
 
@@ -155,6 +175,7 @@ h4 {
     border-radius: 2px 100px;
     background: var(--Azul-00, #F8F8FF);
     columns: 2;
+    color: rgba(41, 52, 149, 0.88);
 
 }
 
@@ -162,6 +183,7 @@ h4 {
     font-size: 40px;
     text-align: left;
     padding-left: 40px;
+    color: rgba(41, 52, 149, 0.88);
 
 }
 
