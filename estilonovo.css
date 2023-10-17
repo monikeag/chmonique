@@ -15,6 +15,16 @@ nav{
     background-color: black;
 }
 
+.imagens-icones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+
+}
+.imagens-icones h4{
+    color: #FFFFFF;
+}
 .btn-primary{
     padding-top: 5px;
     background-color: #ffffff;
@@ -91,13 +101,16 @@ p {
     box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
 
 }
-.cadastro {
+.cadastro  {
     padding-top: 5px;
     background-color: #ffffff;
     color: #293495;
-    background: var(--Azul-00, #F8F8FF);
     box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
 
+}
+
+.cadastro:hover {
+    cursor: pointer;
 }
 .text-back {
     color: #293495;
