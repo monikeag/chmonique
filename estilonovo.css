@@ -159,6 +159,12 @@ section.background {
     color: #293495;
     
 }
+section.background h4 {
+    font-size: 20px;
+    color: #49454F;
+}
+
+
 .comunidade {
     padding-left: 90px;
     padding-top: 30px;
@@ -282,9 +288,9 @@ footer {
     color: #ffffff;
 }
 
-.link1 {
+/*.link1 {
     
-}
+}/*
 
 
 /*area da Maressa*/
