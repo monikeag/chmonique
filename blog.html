@@ -45,6 +45,9 @@
             <li class="nav-item">
                 <a class="btn btn-primary" href="login.html" role="button">Login</a>
             </li>
+            <li class="nav-item">
+                <a class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" role="button" style="color: white;">Consulta Cep</a>
+            </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...
@@ -167,6 +170,29 @@
             <li><a class="link7" href=""><img src="./imagens/twitter.png" alt="Twitter"></a></li>
         </ul>
     </footer>
+    <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title-cep" id="exampleModalLabel">Consulte aqui seu CEP</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" onClick="window.location.reload()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <input type="number" id="cep">
+          <button type="button" id="btnCep" class="btn btn-primary">Pesquisar</button>
+        </div>
+        <div class="dadosInfoCep" id="cep-info">
+            
+        </div>
+      </div>
+    </div>
+  </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
