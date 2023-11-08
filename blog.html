@@ -45,6 +45,9 @@
             <li class="nav-item">
                 <a class="btn btn-primary" href="login.html" role="button">Login</a>
             </li>
+            <li class="nav-item">
+                <a class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" role="button" style="color: white;">Consulta Cep</a>
+            </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...
@@ -86,7 +89,7 @@
         <div class="container-fluid">
             <div class="card-deck">
                 <div class="card">
-                    <img class="card-img-top" src="./imagens/sao-miguel-dos-milagres-alagoas.jpg"
+                    <img class="card-img-top" onclick="ampliarImagem()" src="./imagens/sao-miguel-dos-milagres-alagoas.jpg"
                         alt="São-Miguel-dos-milagres-alagoas">
                     <div class="card-body">
                         <h5 class="card-title">São Miguel dos Milagres - Alagoas</h5>
@@ -99,7 +102,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="./imagens/angra-dos-reis.jpg" alt="Angra dos Reis">
+                    <img class="card-img-top" onclick="ampliarImagem()" src="./imagens/angra-dos-reis.jpg" alt="Angra dos Reis">
                     <div class="card-body">
                         <h5 class="card-title">Angra dos Reis - Rio de Janeiro</h5>
                         <p class="card-text">Angra dos Reis é uma das mais antigas cidades do Brasil. As terras do
@@ -114,7 +117,7 @@
             <br>
             <div class="card-deck">
                 <div class="card">
-                    <img class="card-img-top" src="./imagens/barbados-caribe.jpg" alt="Barbados Caribe">
+                    <img class="card-img-top" onclick="ampliarImagem()" src="./imagens/barbados-caribe.jpg" alt="Barbados Caribe">
                     <div class="card-body">
                         <h5 class="card-title">Barbados - Caribe</h5>
                         <p class="card-text">Barbados é um destino com temperaturas agradáveis o ano todo, com média de
@@ -125,7 +128,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="./imagens/nova-zelandia.jpg" alt=" Cathedral Cove Nova Zelândia">
+                    <img class="card-img-top" onclick="ampliarImagem()" src="./imagens/nova-zelandia.jpg" alt=" Cathedral Cove Nova Zelândia">
                     <div class="card-body">
                         <h5 class="card-title">Nova Zelândia - Cathedral Cove</h5>
                         <p class="card-text">A Península de Coromandel, localizada na Ilha Norte e a 170 km de Auckland,
@@ -167,6 +170,29 @@
             <li><a class="link7" href=""><img src="./imagens/twitter.png" alt="Twitter"></a></li>
         </ul>
     </footer>
+    <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title-cep" id="exampleModalLabel">Consulte aqui seu CEP</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" onClick="window.location.reload()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <input type="number" id="cep">
+          <button type="button" id="btnCep" class="btn btn-primary">Pesquisar</button>
+        </div>
+        <div class="dadosInfoCep" id="cep-info">
+            
+        </div>
+      </div>
+    </div>
+  </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -176,6 +202,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+        <script src="./js/main.js"></script>
 </body>
 
 </html>
