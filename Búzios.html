@@ -46,7 +46,8 @@
                 <a class="btn btn-primary" href="login.html" role="button">Login</a>
             </li>
             <li class="nav-item">
-                <a class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" role="button" style="color: white;">Consulta Cep</a>
+                <a class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" role="button"
+                    style="color: white;">Consulta Cep</a>
             </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
@@ -59,18 +60,27 @@
     <main>
         <div class="container-banner">
             <img class="Image1" src="imagens/buzios.jpg">
-            <label id="texto">Búzios </label>    
-        </div>   
+            <label id="texto">Búzios </label>
+        </div>
         <br>
         <h2 class="Texto1">Tudo para sua viagem a Búzios em 2023:</h2>
         <br>
         <p class="Texto1">
-            A cidade de Búzios, na Região dos Lagos do Rio de Janeiro, recebe visitantes ávidos por muita praia e sol. Mas
-            não só isso, Búzios encanta também pelas pousadas e ruas de pedras, pela excelente gastronomia, por uma boa
-            variedade de lojinhas irresistíveis e por ser um destino que alia conforto a paisagens deslumbrantes..</p>
-        <br>    
+            A cidade de Búzios, na Região dos Lagos do Rio de Janeiro, recebe visitantes ávidos por muita praia e sol.
+            Mas não só isso, Búzios encanta também pelas pousadas e ruas de pedras, pela excelente gastronomia, por uma
+            boa variedade de lojinhas irresistíveis e por ser um destino que alia conforto a paisagens deslumbrantes.
+            Você poderá passar dias na cidade sem perceber que ela é, na verdade, bem pequenina.
+
+            O principal objetivo de quem visita Búzios são as praias. E nem poderia ser diferente. A cidade oferece mais
+            de 20 boas opções para os visitantes. O mais impressionante é o fato de as praias serem bem diferentes umas
+            das outras, o que torna ainda mais irresistível a vontade de percorrer várias delas em uma mesma viagem. Há
+            praias de mar aberto, com ondas próprias para o surf; outras com mar digno de ser chamado de piscina. Há
+            praias longas, com grande faixa de areia branca e vegetação virgem; outras que de tão pequenas passam
+            despercebidas aos olhos dos turistas mais apressados. O fato é que uma delas certamente irá arrebatar o seu
+            coração. </p>
         <br>
-        
+        <br>
+
     </main>
     <section class="newsletter">
         <h1> Assine nossa Newsletter </h1>
@@ -100,27 +110,29 @@
     </footer>
     <!-- Button trigger modal -->
 
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title-cep" id="exampleModalLabel">Consulte aqui seu CEP</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close" onClick="window.location.reload()">
-            <span aria-hidden="true">&times;</span>
-          </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title-cep" id="exampleModalLabel">Consulte aqui seu CEP</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                        onClick="window.location.reload()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="number" id="cep">
+                    <button type="button" id="btnCep" class="btn btn-primary">Pesquisar</button>
+                </div>
+                <div class="dadosInfoCep" id="cep-info">
+
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-          <input type="number" id="cep">
-          <button type="button" id="btnCep" class="btn btn-primary">Pesquisar</button>
-        </div>
-        <div class="dadosInfoCep" id="cep-info">
-            
-        </div>
-      </div>
     </div>
-  </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -130,7 +142,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-        <script src="./js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
